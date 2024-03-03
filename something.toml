@@ -1,0 +1,13 @@
+name = "something"
+
+compatibility_date = "2023-12-01"
+compatibility_flags = [ "nodejs_compat" ]
+
+[dev]
+ip = "127.0.0.1"
+port = 8989
+local_protocol = "http"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "asd"
